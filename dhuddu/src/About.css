@@ -1,0 +1,14 @@
+.head{
+    display: flex;
+    flex-direction: row;
+    font-size: 55px;
+   
+}
+.more{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: relative;
+    margin-top: -85px;
+}
+

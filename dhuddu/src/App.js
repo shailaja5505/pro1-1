@@ -1,12 +1,14 @@
 
-import { About } from './About';
 import './App.css';
-
+import Mycomponents from './Mycomponents';
+import Navbar from './Navbar';
 function App() {
   return (
-    <div>
-  <About />
-    </div>
+   <div>
+
+    <Navbar />
+     <Mycomponents />
+   </div>
   );
 }
 

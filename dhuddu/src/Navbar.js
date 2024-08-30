@@ -1,5 +1,7 @@
 import { Component } from "react";
 import './Navbar.css'
+import Mycomponents from "./Mycomponents";
+import Top from "./Top";
 
 
 class Navbar extends Component{
@@ -24,7 +26,10 @@ class Navbar extends Component{
        <div id="mobile" onClick={this.handleClick}>
         <i id="bar" className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}></i>
        </div>
+       
        </nav>
+       <Mycomponents />
+        <Top />
         </>
     );
 }
